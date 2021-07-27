@@ -17,6 +17,11 @@ const RoomSchema = new mongoose.Schema({
         )
       }
     }
+  },
+  promo: {
+    type: Boolean,
+    required: true,
+    default: false
   }
 })
 

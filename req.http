@@ -6,7 +6,8 @@ POST http://localhost:5000/api/rooms HTTP/1.1
 content-type: application/json
 
 {
-  "name": "Test"
+  "name": "room five",
+  "promo": true
 }
 
 ###
